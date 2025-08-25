@@ -23,6 +23,7 @@ Nenghai Yu<sup>1</sup> <br>
 ## Getting Started
 ### Prerequisites
 ```bash
+$ conda create -n hairclipv2 python=3.8
 $ pip install torch==1.9.0+cu111 torchvision==0.10.0+cu111 -f https://download.pytorch.org/whl/torch_stable.html
 $ pip install ftfy regex tqdm matplotlib jupyter ipykernel opencv-python scikit-image kornia==0.6.7 face-alignment==1.3.5 dlib==19.22.1
 $ pip install git+https://github.com/openai/CLIP.git
